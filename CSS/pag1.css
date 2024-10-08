@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(71, 67, 67);
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+.imgLion{
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+}
