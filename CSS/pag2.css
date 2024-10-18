@@ -14,3 +14,10 @@ h1 {
 .subtitulo {
   font-size: 30px;
 }
+
+.pag2_paragrafo {
+  text-align: justify;
+  text-indent: 30px;
+  padding: 10px;
+}
+
