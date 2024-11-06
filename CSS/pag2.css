@@ -13,6 +13,7 @@ h1 {
 
 .subtitulo {
   font-size: 30px;
+  text-align: center;
 }
 
 .pag2_paragrafo {
@@ -21,3 +22,11 @@ h1 {
   padding: 10px;
 }
 
+fieldset{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
