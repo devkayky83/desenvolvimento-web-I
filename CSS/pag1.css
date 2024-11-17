@@ -2,8 +2,11 @@
 
 body {
   background-color: #ffe5ab;
+  background-image: url(/img/zoo-background.avif);
+  background-size: contain;
   color: #222831;
   margin: 0;
+  color: #000000;
 }
 
 h1 {
