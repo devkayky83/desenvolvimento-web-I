@@ -4,6 +4,7 @@ body {
   background-color: #ffe5ab;
   color: #000000;
   font-size: 20px;  
+  margin: 0;
 }
 
 h1 {
@@ -22,11 +23,61 @@ h1 {
   padding: 10px;
 }
 
-fieldset{
+.greenbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  background-color: #388e3c;
+}
+
+div {
   display: flex;
   justify-content: center;
   border: 1px solid #ccc;
   padding: 20px;
   width: 80%;
   margin: 0 auto;
+}
+
+label {
+  text-align: left;
+  width: 95%;
+}
+
+input[type="checkbox"] + nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background-color: #4caf50;
+  padding: 0 10px;
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  color: rgb(0, 0, 0);
+  display: block;
+  text-decoration: none;
+  border-bottom: 0.1px solid gold;
+  padding: 5px;
+}
+
+a:hover {
+  background-color: rgb(#388e3c);
+  color: #fff;
+}
+
+input[type="checkbox"]:checked + nav {
+  display: block;
+  max-height: 200px;
+}
+
+input[type="checkbox"]{
+  display: none;
 }

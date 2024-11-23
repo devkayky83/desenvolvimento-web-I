@@ -30,3 +30,46 @@ h1 {
 .img_pag3 {
   text-align: center;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  text-align: left;
+  width: 95%;
+}
+
+input[type="checkbox"] + nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background-color: #4caf50;
+  padding: 0 10px;
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  color: rgb(0, 0, 0);
+  display: block;
+  text-decoration: none;
+  border-bottom: 0.1px solid gold;
+  padding: 5px;
+}
+
+a:hover {
+  background-color: rgb(#388e3c);
+  color: #fff;
+}
+
+input[type="checkbox"]:checked + nav {
+  display: block;
+  max-height: 200px;
+}
+
+input[type="checkbox"]{
+  display: none;
+}

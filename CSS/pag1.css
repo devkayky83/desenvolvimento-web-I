@@ -2,9 +2,8 @@
 
 body {
   background-color: #ffe5ab;
-  background-image: url(/img/zoo-background.avif);
+  background-image: url(/imgs/zoo-background2.jpg);
   background-size: contain;
-  color: #222831;
   margin: 0;
   color: #000000;
 }
@@ -24,13 +23,11 @@ h1 {
 
 .imgLion {
   display: block;
-  text-align: center;
   margin: 0px auto;
 }
 
 .greenbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -40,3 +37,41 @@ h1 {
   background-color: #388e3c;
 }
 
+fieldset {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+legend {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #4caf50;
+  padding: 5px 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  background-color: #f4fff4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000000;
+}
